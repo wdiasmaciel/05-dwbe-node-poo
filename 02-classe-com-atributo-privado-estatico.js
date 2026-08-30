@@ -1,3 +1,5 @@
+import promptSync from 'prompt-sync';
+
 class Retangulo {
     static #contador = 0; // Atributo privado estático, ou atributo privado de classe.
     constructor(base, altura) { 
@@ -12,14 +14,26 @@ class Retangulo {
     }
 }
 
-let ret1 = new Retangulo(6, 7);
+// Inicia a função de prompt:
+const prompt = promptSync();
+
+let base = prompt("Informe a base do retângulo: ");
+let altura = prompt("Informe a altura do retângulo: ");
+
+let ret1 = new Retangulo(base, altura);
 console.log("Contador: " + ret1.getContador);
 console.log("Área: " + ret1.area);
 
-let ret2 = new Retangulo(7, 8);
+base = prompt("Informe a base do retângulo: ");
+altura = prompt("Informe a altura do retângulo: ");
+
+let ret2 = new Retangulo(base, altura);
 console.log("Contador: " + ret2.getContador);
 console.log("Área: " + ret2.area);
 
-let ret3 = new Retangulo(8, 9);
+base = prompt("Informe a base do retângulo: ");
+altura = prompt("Informe a altura do retângulo: ");
+
+let ret3 = new Retangulo(base, altura);
 console.log("Contador: " + ret3.getContador);
 console.log("Área: " + ret3.area);
