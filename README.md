@@ -150,7 +150,7 @@ Crie uma classe `Pessoa` que:
 - Cada instância receba um `id` único (incrementado automaticamente).
 - Tenha atributos de instância: `nome` e `email`.
 - Possua um getter para acessar o ID.
-- Crie uma função que leia dados de uma quantidade indeterminada de pessoas a partir do teclado.
+- Crie uma função que leia dados de uma quantidade indeterminada de pessoas a partir do teclado (use `prompt-sync`).
 - Crie uma função que exiba os dados das pessoas.
 
 ---
@@ -160,7 +160,7 @@ Crie uma classe `Conversor` com os seguintes métodos estáticos:
 - `celsiusParaFahrenheit(celsius)` - converte temperatura: `F = (C × 1.8) + 32`.
 - `quilometrosParaMilhas(km)` - converte distância: `M = km × 0.621371`.
 - `quilosParaLibras(kg)` - converte peso: `L = kg × 2.20462`.
-- Crie um menu interativo que permita o usuário escolher qual conversão fazer e inserir o valor a ser convertido a partir do teclado.
+- Crie um menu interativo que permita o usuário escolher qual conversão fazer e inserir o valor a ser convertido a partir do teclado (use `prompt-sync`).
 - Permitir que o usuário execute as conversões um número indeterminado de vezes.
 
 ---
@@ -172,7 +172,7 @@ Crie uma classe `Retangulo` com:
 - Método getter `area` que calcula a área.
 - Método getter `perimetro` que calcula o perímetro.
 - Método `exibir()` que mostra todas as informações.
-- Permita que o usuário crie um número indeterminado de retângulos com dados inseridos a partir do teclado.
+- Permita que o usuário crie um número indeterminado de retângulos com dados inseridos a partir do teclado (use `prompt-sync`).
 - Exiba os dados dos retângulos informados.
 
 ---
@@ -184,6 +184,6 @@ Crie uma classe `Estudante` com:
 - Atributos de instância: `nome`, `curso` e `nota`.
 - Método getter para retornar a matrícula.
 - Método `aprovado()` que retorna true se a nota >= 7.0.
-- Permita cadastrar um número indeterminado de estudantes com dados informados a partir do teclado.
+- Permita cadastrar um número indeterminado de estudantes com dados informados a partir do teclado (use `prompt-sync`).
 - Exiba todas as matrículas.
 - Mostre quem foi aprovado.
