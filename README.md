@@ -1,23 +1,61 @@
 # 05-dwbe-node-poo
 
-Exemplos para executar cada algoritmo rapidamente:
+---
+
+# Atividade
+
+## Passo 1: 
+
+Iniciar um projeto Node.js com as configurações padrões:
 
 ```bash
-node 01-classe-com-atributo-estatico.js
+npm init -y
 ```
 
-```bash
-node 02-classe-com-atributo-privado-estatico.js
+## Passo 2: 
+
+Abrir o arquivo `package.json` gerado e habilitar o suporte a módulos, adicionando a seguinte linha logo abaixo do campo `main`:
+
+```javascript
+"type": "module",
 ```
 
-Exemplos alternativos para executar cada algoritmo rapidamente:
-
-```bash
-node 01*
+**OBS**: caso o arquivo `package.json` tenha a linha abaixo, ela deve ser substituída pela linha `"type": "module",`:
+```javascript
+  "type": "commonjs",
 ```
 
+Arquivo `package.json`:
+```javascript
+{
+  "name": "05-dwbe-node-poo",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "01-classe-com-atributo-estatico.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdiasmaciel/05-dwbe-node-poo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/wdiasmaciel/05-dwbe-node-poo/issues"
+  },
+  "homepage": "https://github.com/wdiasmaciel/05-dwbe-node-poo#readme"
+}
+```
+
+## Passo 3: 
+
+Execute o comando abaixo no terminal:
+
 ```bash
-node 02*
+npm install prompt-sync
 ```
 
 ---
@@ -26,9 +64,9 @@ node 02*
 
 ## 1: Classe Carro com Atributo Estático
 Crie uma classe `Carro` que possua:
-- Atributo estático `contador` para rastrear quantos carros foram criados
-- Atributos de instância: `marca`, `modelo` e `ano`
-- Método `exibir()` que mostra as informações do carro e o contador total
+- Atributo estático `contador` para rastrear quantos carros foram criados.
+- Atributos de instância: `marca`, `modelo` e `ano`.
+- Método `exibir()` que mostra as informações do carro e o contador total.
 
 **Desafio:** Permita que o usuário insira os dados de 3 carros via teclado (use `prompt-sync` ou solicite via console.log/prompt).
 
