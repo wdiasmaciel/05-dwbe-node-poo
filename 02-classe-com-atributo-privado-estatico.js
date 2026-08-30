@@ -1,0 +1,25 @@
+class Retangulo {
+    static #contador = 0; // Atributo privado estático, ou atributo privado de classe.
+    constructor(base, altura) { 
+        Retangulo.#contador++; 
+        this.base = base; // Atributo de instância, de cada objeto.
+        this.altura = altura; // Atributo de instância, de cada objeto.
+    }
+    get getContador() { return Retangulo.#contador; }
+    get area() {
+        let resp = parseFloat(this.base) * parseFloat(this.altura); 
+        return resp.toFixed(2);
+    }
+}
+
+let ret1 = new Retangulo(6, 7);
+console.log("Contador: " + ret1.getContador);
+console.log("Área: " + ret1.area);
+
+let ret2 = new Retangulo(7, 8);
+console.log("Contador: " + ret2.getContador);
+console.log("Área: " + ret2.area);
+
+let ret3 = new Retangulo(8, 9);
+console.log("Contador: " + ret3.getContador);
+console.log("Área: " + ret3.area);
