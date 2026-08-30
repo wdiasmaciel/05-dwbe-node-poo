@@ -160,7 +160,8 @@ Crie uma classe `Conversor` com os seguintes métodos estáticos:
 - `celsiusParaFahrenheit(celsius)` - converte temperatura: `F = (C × 1.8) + 32`.
 - `quilometrosParaMilhas(km)` - converte distância: `M = km × 0.621371`.
 - `quilosParaLibras(kg)` - converte peso: `L = kg × 2.20462`.
-- Crie um menu interativo que permita o usuário escolher qual conversão fazer e inserir o valor a ser convertido a partir do teclado (use `prompt-sync`).
+- Crie um menu interativo que permita o usuário escolher qual conversão fazer (use `switch-case`).
+- Inserir o valor a ser convertido a partir do teclado (use `prompt-sync`).
 - Permitir que o usuário execute as conversões um número indeterminado de vezes.
 
 ---
