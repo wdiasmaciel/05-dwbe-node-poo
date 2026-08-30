@@ -1,9 +1,9 @@
 class Retangulo {
-    static contador = 0;
+    static contador = 0; // Atributo estático, ou atributo de classe.
     constructor(base, altura) { 
         Retangulo.contador++; 
-        this.base = base;
-        this.altura = altura;
+        this.base = base; // Atributo de instância, de cada objeto.
+        this.altura = altura; // Atributo de instância, de cada objeto.
     }
     get getContador() { return Retangulo.contador; }
     get area() {
