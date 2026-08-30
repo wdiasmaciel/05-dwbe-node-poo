@@ -58,6 +58,79 @@ Execute o comando abaixo no terminal:
 npm install prompt-sync
 ```
 
+Observe a inserção da dependência `prompt-sync` na chave `dependencies` do arquivo `package.json` :
+
+```javascript
+{
+  "name": "05-dwbe-node-poo",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "01-classe-com-atributo-estatico.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdiasmaciel/05-dwbe-node-poo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/wdiasmaciel/05-dwbe-node-poo/issues"
+  },
+  "homepage": "https://github.com/wdiasmaciel/05-dwbe-node-poo#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
+```
+
+Observer também a criação do arquivo `package-lock.json` e da pasta `./node_modules`.
+
+---
+
+## Passo 4:
+
+Crie o arquivo `.gitignore` com o conteúdo abaixo:
+
+```text
+node_modules
+```
+
+## Passo 5: 
+
+Execute o comando abaixo no terminal:
+
+```bash
+git add . && git commit -m "Exemplo" && git push
+```
+
+## Passo 6: 
+
+Analise e execute os algoritmos da prática no terminal.
+
+Exemplos para executar cada algoritmo rapidamente:
+
+```bash
+node 01-classe.js
+```
+
+```bash
+node 02-classe-anonima.js
+```
+
+Exemplos alternativos para executar cada algoritmo rapidamente:
+
+```bash
+node 01*
+```
+
+```bash
+node 02*
+```
+
 ---
 
 # Exercícios

@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/wdiasmaciel/05-dwbe-node-poo/issues"
   },
-  "homepage": "https://github.com/wdiasmaciel/05-dwbe-node-poo#readme"
+  "homepage": "https://github.com/wdiasmaciel/05-dwbe-node-poo#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
