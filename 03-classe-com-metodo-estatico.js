@@ -1,7 +1,7 @@
 import promptSync from 'prompt-sync';
 
 class Retangulo {
-    static area(base, altura) {
+    static area(base, altura) { // Método estático, método estático da classe.
         let resp = parseFloat(base) * parseFloat(altura); 
         return resp.toFixed(2);
     }
