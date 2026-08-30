@@ -167,23 +167,23 @@ Crie uma classe `Conversor` com os seguintes métodos estáticos:
 
 ## 4: Classe Retângulo com Perímetro
 Crie uma classe `Retangulo` com:
-- Atributo estático `totalRetangulos` que conta quantos retângulos foram criados
-- Atributos de instância: `base` e `altura`
-- Método getter `area` que calcula a área
-- Método getter `perimetro` que calcula o perímetro
-- Método `exibir()` que mostra todas as informações
-
-**Desafio:** Permita que o usuário crie 4 retângulos com dados inseridos via teclado e exiba suas informações.
+- Atributo estático `totalRetangulos` que conta quantos retângulos foram criados.
+- Atributos de instância: `base` e `altura`.
+- Método getter `area` que calcula a área.
+- Método getter `perimetro` que calcula o perímetro.
+- Método `exibir()` que mostra todas as informações.
+- Permita que o usuário crie um número indeterminado de retângulos com dados inseridos a partir do teclado.
+- Exiba os dados dos retângulos informados.
 
 ---
 
 ## 5: Classe Estudante com Controle de Matrículas
 Crie uma classe `Estudante` com:
-- Atributo privado estático `proximaMatricula` iniciando em 1001
-- Cada instância receba uma matrícula única
-- Atributos de instância: `nome`, `curso` e `nota`
-- Método getter para retornar a matrícula
-- Método `aprovado()` que retorna true se a nota >= 7.0
-
-**Desafio:** Crie um programa que permita cadastrar 3 estudantes com dados do teclado, exiba todas as matrículas e mostre quem foi aprovado.
-
+- Atributo privado estático `proximaMatricula` iniciando em 1001.
+- Cada instância receba uma matrícula única.
+- Atributos de instância: `nome`, `curso` e `nota`.
+- Método getter para retornar a matrícula.
+- Método `aprovado()` que retorna true se a nota >= 7.0.
+- Permita cadastrar um número indeterminado de estudantes com dados informados a partir do teclado.
+- Exiba todas as matrículas.
+- Mostre quem foi aprovado.
