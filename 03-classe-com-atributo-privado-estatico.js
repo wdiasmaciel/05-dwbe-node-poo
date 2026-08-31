@@ -13,13 +13,16 @@ class GeradorDeId {
   }
 }
 
-const item1 = new GeradorDeId().getId(); // Retorna: 1
-const item2 = new GeradorDeId().getId(); // Retorna: 2
+const item1 = new GeradorDeId(); 
+const item2 = new GeradorDeId(); 
 
-cosole.log(`item1 ID: ${item1}`); // Saída: 1
-console.log(`item2 ID: ${item2}`); // Saída: 2
+let id1 = item1.constructor.getId();
+let id2 = item2.constructor.getId();
 
-// Acesso correto via método público:
+console.log(`ID1: ${id1}`); // Saída: 1
+console.log(`ID2: ${id2}`); // Saída: 2
+
+// Acesso via método estáticopúblico:
 console.log(GeradorDeId.getId()); // Saída: 2
 
 // 2. Erro ao tentar acessar direto de fora:
