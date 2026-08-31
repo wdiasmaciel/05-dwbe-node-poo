@@ -1,22 +1,22 @@
 class GeradorDeId {
-  // Atributo estático e privado:
-  static #id = 0; 
+    // Atributo estático e privado:
+    static #id = 0;
 
-  constructor() {
-    // Acesso apenas internamente pela classe:
-    GeradorDeId.#id++; 
-  }
+    constructor() {
+        // Acesso apenas internamente pela classe:
+        GeradorDeId.#id++;
+    }
 
-  // Método estático público para ler o último valor de id gerado:
-  static getId() {
-    return GeradorDeId.#id;
-  }
+    // Método estático público para ler o último valor de id gerado:
+    static getId() {
+        return GeradorDeId.#id;
+    }
 }
 
-const item1 = new GeradorDeId(); 
-const item2 = new GeradorDeId(); 
-
+const item1 = new GeradorDeId();
 let id1 = item1.constructor.getId();
+
+const item2 = new GeradorDeId();
 let id2 = item2.constructor.getId();
 
 console.log(`ID1: ${id1}`); // Saída: 1
