@@ -23,7 +23,7 @@ console.log(`ID1: ${id1}`); // Saída: 1
 console.log(`ID2: ${id2}`); // Saída: 2
 
 // Acesso via método estáticopúblico:
-console.log(GeradorDeId.getId()); // Saída: 2
+console.log(`Último ID gerado: ${GeradorDeId.getId()}`); // Saída: 2
 
 // 2. Erro ao tentar acessar direto de fora:
 // console.log(GeradorDeId.#ultimoId); // -> Erro: Private field '#ultimoId' must be declared in an enclosing class.
