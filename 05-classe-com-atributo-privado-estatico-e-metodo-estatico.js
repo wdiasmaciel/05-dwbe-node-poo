@@ -14,10 +14,10 @@ class GeradorDeId {
 }
 
 const item1 = new GeradorDeId();
-let id1 = item1.constructor.getId();
+let id1 = item1.constructor.getId(); // Retorna: 1
 
 const item2 = new GeradorDeId();
-let id2 = item2.constructor.getId();
+let id2 = item2.constructor.getId(); // Retorna: 2
 
 console.log(`ID1: ${id1}`); // Saída: 1
 console.log(`ID2: ${id2}`); // Saída: 2
