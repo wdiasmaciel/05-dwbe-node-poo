@@ -26,4 +26,4 @@ console.log(`ID2: ${id2}`); // Saída: 2
 console.log(`Último ID gerado: ${GeradorDeId.getId()}`); // Saída: 2
 
 // 2. Erro ao tentar acessar direto de fora:
-// console.log(GeradorDeId.#ultimoId); // -> Erro: Private field '#ultimoId' must be declared in an enclosing class.
+// console.log(GeradorDeId.#id); // -> Erro: Private field '#id' must be declared in an enclosing class.
